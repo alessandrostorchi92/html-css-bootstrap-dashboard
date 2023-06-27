@@ -41,7 +41,6 @@ header {
 .top_bar .btn {
     --bs-btn-hover-bg: white;
     --bs-btn-bg: white;
-    --bs-btn-hover-border-color: white;
     border: none;
 }
 
