@@ -1,0 +1,31 @@
+/* 
+Mobile First
+
+Usiamo min-width dalla più piccola alla più grande
+*/
+
+@media screen and (min-width: 576px) {
+    .sidebar {
+        flex-basis: 70px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+    .sidebar {
+        flex-basis: 140px;
+    }
+
+    .sidebar ul li i {
+        margin-right: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+}
+
+@media screen and (min-width: 1400px) {
+}
