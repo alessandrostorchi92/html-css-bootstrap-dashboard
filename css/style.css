@@ -95,11 +95,6 @@ main {
     height: 100%;
 }
 
-.main_section_contents {
-    flex-grow: 1;
-    overflow: auto;
-}
-
 .tag {
     color: white;
     background-color: #175BBA;
@@ -112,3 +107,43 @@ main {
     border-radius: 50%;
 }
 
+.main_section_contents {
+    flex-grow: 1;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.table tr th {
+    --bs-table-color-state: #4F5356;
+}
+
+.table_icon {
+    width: 25px;
+    height: 25px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.action_btn {
+    width: 25px;
+    height: 25px;
+    font-size: 0.8rem;
+    color: grey;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 8px;
+    
+}
+
+tbody tr th span {
+    font-size: small;
+    font-weight: normal;
+    color: black;
+}
+
+tbody tr td {
+    font-size: small;
+    font-weight: normal;
+    color: grey;
+}
